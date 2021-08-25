@@ -1,0 +1,11 @@
+#tHIS PROGRAM SAYS HELLO AND ASKS FOR MY NAME
+print('Hello world!')
+print('What is your name??') #aska their name
+myName =input()
+print('It is good to meet you, ' +myName)
+print('The length of your name is:')
+print(len(myName))
+print('What is your age?') #ask for their age
+myAge = input()
+print('YOu will be ' + str(int(myAge) +1) + ' in a year.')
+      
