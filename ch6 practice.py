@@ -6,7 +6,7 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
 def printTable(table):
     colWidths= [0] * len(table)
     n=0 #numerator
-    for i in table:
+        for i in table:
            m=0 #holder
            for j in i:
                #print(len(j)) #prints out length of each word
